@@ -9,6 +9,16 @@
 
 }
 
+.ellips {
+    position: absolute;
+    right: 0;
+    width: 228px;
+    height: 228px;
+    flex-shrink: 0;
+    fill: var(--green, #02CDCF);
+    filter: blur(196px);
+}
+
 .pt4 {
     padding-top: 34px;
 }
@@ -21,9 +31,20 @@
 
 }
 
+.ellips {
+    position: absolute;
+    width: 228px;
+    height: 228px;
+    flex-shrink: 0;
+    fill: var(--green, #02CDCF);
+    filter: blur(196px);
+    left: 0;
+
+}
+
 .box1 {
     height: 810px;
-    width: 1300px;
+    width: 1400px;
     border: 2px solid white;
 }
 
@@ -97,6 +118,11 @@
     border-radius: 6px;
 }
 
+.ab {
+    position: absolute;
+    right: 0;
+}
+
 /* section */
 .max-width {
     max-width: 517px;
@@ -106,4 +132,20 @@
     padding: 18px 32px;
     border: none;
     border-radius: 12px;
+}
+
+/* footer */
+
+.line {
+    height: 2px;
+    width: 100%;
+    background-color: #6A6F6E;
+
+}
+
+.background-img {
+    background-image: url(../image/moon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
