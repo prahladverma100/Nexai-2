@@ -21,7 +21,10 @@
     --green: #02CDCF;
     --black: #0B0A0A;
     --text_color: #B4B4B4;
+
 }
+
+
 
 /* font-size */
 
@@ -75,7 +78,7 @@
 }
 
 .text_color {
-    color: var(--greay);
+    color: var(--text_color);
 }
 
 /* font-weight */
@@ -102,4 +105,8 @@
 
 .ff_Recharge {
     font-family: Recharge;
+}
+
+.ff-Poppins {
+    font-family: Poppins !important;
 }

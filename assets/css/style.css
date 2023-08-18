@@ -1,1 +1,109 @@
 @import url("../css/root.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box;
+
+}
+
+.pt4 {
+    padding-top: 34px;
+}
+
+.box {
+    width: 340px;
+    height: 210px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 20px 0px rgba(2, 205, 207, 0.16);
+
+}
+
+.box1 {
+    height: 810px;
+    width: 1300px;
+    border: 2px solid white;
+}
+
+.bg_image {
+    background-image: url(../image/Group-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.btn-border {
+    border: none;
+    padding: 18px 32px;
+    border-radius: 12px;
+}
+
+.pt-6 {
+    padding-top: 100px;
+    border-radius: 12px;
+}
+
+/* timeline */
+.timeline {
+    position: relative !important;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #02CDCF;
+    top: 26px;
+    bottom: 26px;
+    left: 0%;
+    margin-left: -3px;
+}
+
+.container1 {
+    padding: 0px 12px;
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+}
+
+.container1::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    top: 69px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.right {
+    left: 0;
+}
+
+.right::after {
+    left: -13px;
+}
+
+.content {
+    padding: 20px 30px;
+    position: relative;
+    border-radius: 6px;
+}
+
+/* section */
+.max-width {
+    max-width: 517px;
+}
+
+.padding {
+    padding: 18px 32px;
+    border: none;
+    border-radius: 12px;
+}
